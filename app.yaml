@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: webapp
+        environment: production
     spec:
       containers:
       - name: webapp-ctr
