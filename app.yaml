@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp-ctr
-        image: public.ecr.aws/n7h7b7j8/my-aws-repo/webapp:latest   #<YOUR_DOCKER_REPO>:<tag>
+        image: ocpctregistry/myrepo:latest   #<YOUR_DOCKER_REPO>:<tag>
         ports:
         - containerPort: 80
         resources:
