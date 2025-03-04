@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webapp-ctr
-        image: ocpctregistry/webapp:latest   #<YOUR_DOCKER_REPO>:<tag>
+        image: ocpctregistry/my-webapp:latest   #<YOUR_DOCKER_REPO>:<tag>
         ports:
         - containerPort: 8080
         resources:
